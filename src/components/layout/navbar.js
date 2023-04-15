@@ -1,4 +1,5 @@
 import React from 'react'
+import { PopupButton } from '@typeform/embed-react'
 
 const Navbar = () => {
   return (
@@ -8,12 +9,12 @@ const Navbar = () => {
         <img src="/images/logo.svg" alt='logo' className=''/>
       </div>
       <div className='flex text-[#FFFFFF] space-x-8 text-lexand'>
-        <ul className='flex items-center space-x-8'>
-            <li>About us</li>
-            <li>About the event</li>
-            <li>Sponsors</li>
+        <ul className='flex items-center space-x-8 '>
+            <li className='hover:text-[#00CCB7]'>About us</li>
+            <li className='hover:text-[#00CCB7]'>About the event</li>
+            <li className='hover:text-[#00CCB7]'>Sponsors</li>
         </ul>
-        <button className='bg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5'>Register now</button>
+        <button class="bg-[#00CCB7] hover:bg-[#06f7e3] text-white font-bold py-2 px-4 rounded"><PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button"></PopupButton>Register now</button>
       </div>
     </div>
     </div>
