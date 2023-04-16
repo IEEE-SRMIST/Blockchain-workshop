@@ -14,7 +14,9 @@ const Navbar = () => {
             <li className='hover:text-[#00CCB7]'>About the event</li>
             <li className='hover:text-[#00CCB7]'>Sponsors</li>
         </ul>
-        <button class="bg-[#00CCB7] hover:bg-[#06f7e3] text-white font-bold py-2 px-4 rounded"><PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button"></PopupButton>Register now</button>
+        <button className="bg-[#00CCB7] hover:bg-[#06f7e3] text-white font-bold py-2 px-2 rounded">
+          <PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
+        </button>
       </div>
     </div>
     </div>
