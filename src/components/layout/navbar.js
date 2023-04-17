@@ -8,6 +8,22 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleOurTeamClick = () => {
+    const teamSection = document.getElementById('teams');
+    teamSection.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleourspeakerClick = () => {
+    const teamSection = document.getElementById('speaker');
+    teamSection.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleaboutusClick = () => {
+    const teamSection = document.getElementById('AboutUs');
+    teamSection.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleabouteventClick = () => {
+    const teamSection = document.getElementById('AboutEvent');
+    teamSection.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className='fixed w-screen' style={{zIndex: 2}}>
       <div className='bg-[#1E1E1E] flex justify-between px-10 py-2'>
@@ -16,10 +32,10 @@ const Navbar = () => {
         </div>
         <div className='hidden lg:flex text-[#FFFFFF] space-x-8 text-lexand'>
           <ul className='flex items-center space-x-8'>
-            <li className="hover:text-[#00CCB7] cursor-pointer">About us</li>
-            <li className="hover:text-[#00CCB7] cursor-pointer">About the event</li>
-            <li className="hover:text-[#00CCB7] cursor-pointer">Panelist</li>
-            <li className="hover:text-[#00CCB7] cursor-pointer">Our Team</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleaboutusClick}>About us</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleabouteventClick}>About the event</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleourspeakerClick}>Panelist</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleOurTeamClick}>Our Team</li>
           </ul>
           <button className='bg-[#FFFFFF] hover:bg-[#00CCB7] roundedbg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5 text-sm'>
           <PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
@@ -47,9 +63,10 @@ const Navbar = () => {
       {isOpen && (
         <div className='bg-[#1E1E1E] w-screen py-2 lg:hidden text-[#FFFFFF]'>
           <ul className='flex flex-col items-center space-y-4'>
-            <li>About us</li>
-            <li>About the event</li>
-            <li>Sponsors</li>
+            <li onClick={handleaboutusClick}>About us</li>
+            <li onClick={handleabouteventClick}>About the event</li>
+            <li onClick={handleourspeakerClick}>Panelist</li>
+            <li onClick={handleOurTeamClick}>Our Team</li>
             <button className='bg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5'>
               Register now
             </button>
