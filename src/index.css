@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Karla:ital@1&family=Lexend:wght@300;400;700&family=Poppins&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Karla:ital@1&family=Lexend:wght@300;400;700&family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 body {
   margin: 0;
@@ -11,7 +12,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1E1E1E;
+  overflow-x: hidden;
   
+}
+.bg-black {
+  background-color: #1E1E1E;
 }
 
 code {
@@ -20,4 +26,9 @@ code {
 }
 .text-lexand{
   font-family: 'Lexend', sans-serif;
+}
+.text-robotomono{
+  font-family: 'Roboto Mono', monospace;
+.text-roboto{
+  font-family: 'Roboto', sans-serif;
 }
