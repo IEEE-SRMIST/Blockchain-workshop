@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='fixed w-screen'>
+    <div className='fixed w-screen' style={{zIndex: 2}}>
       <div className='bg-[#1E1E1E] flex justify-between px-10 py-2'>
         <div>
           <img src='/images/logo.svg' alt='logo' />
