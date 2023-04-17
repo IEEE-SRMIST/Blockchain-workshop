@@ -7,7 +7,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   const handleOurTeamClick = () => {
     const teamSection = document.getElementById('teams');
     teamSection.scrollIntoView({ behavior: 'smooth' });
@@ -27,8 +26,8 @@ const Navbar = () => {
   return (
     <div className='fixed w-screen' style={{zIndex: 2}}>
       <div className='bg-[#1E1E1E] flex justify-between px-10 py-2'>
-        <div className='cursor-pointer'>
-          <img src='/images/logo.svg' alt='logo' />
+        <div className='cursor-pointer' onClick={handleaboutusClick}>
+          <img src='/images/logo.svg' alt='logo'/>
         </div>
         <div className='hidden lg:flex text-[#FFFFFF] space-x-8 text-lexand'>
           <ul className='flex items-center space-x-8'>
