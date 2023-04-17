@@ -2,11 +2,11 @@ import React from "react";
 import img from "../../assets/images/image 4.svg";
 const Cards = () => {
   return (
-  <div className="bg-black">
-    <div className="text-Roboto text-2xl lg:text-4xl mb-4 text-white text-center pt-20">
+  <div  id="AboutEvent" className="bg-black">
+    <div className="text-Roboto text-2xl lg:text-4xl mb-4 text-white text-center pt-80 md:pt-20">
         <h3>Whats in it for you?</h3>
     </div>
-    <div>
+    <div className="lg:-mt-32">
     <section className="bg-black min-h-screen flex flex-wrap lg:flex-nowrap justify-center items-center gap-x-16 text-white flex-grow">
       <div className="w-[300px] h-[380px] bg-transparent cursor-pointer group perspective lg:py-0 py-8">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">

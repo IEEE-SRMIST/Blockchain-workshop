@@ -11,14 +11,15 @@ const Navbar = () => {
   return (
     <div className='fixed w-screen' style={{zIndex: 2}}>
       <div className='bg-[#1E1E1E] flex justify-between px-10 py-2'>
-        <div>
+        <div className='cursor-pointer'>
           <img src='/images/logo.svg' alt='logo' />
         </div>
         <div className='hidden lg:flex text-[#FFFFFF] space-x-8 text-lexand'>
           <ul className='flex items-center space-x-8'>
-            <li>About us</li>
-            <li>About the event</li>
-            <li>Sponsors</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer">About us</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer">About the event</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer">Panelist</li>
+            <li className="hover:text-[#00CCB7] cursor-pointer">Our Team</li>
           </ul>
           <button className='bg-[#FFFFFF] hover:bg-[#00CCB7] roundedbg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5 text-sm'>
           <PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
