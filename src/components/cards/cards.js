@@ -3,57 +3,49 @@ import img from "../../assets/images/image 4.svg";
 const Cards = () => {
   return (
   <div  id="AboutEvent" className="bg-black">
-    <div className="text-Roboto text-2xl lg:text-4xl mb-4 text-white text-center pt-80 md:pt-20">
+    <div className="text-Roboto text-2xl mb-8 mt-40 lg:text-4xl mb-4 text-white text-center pt-80 md:pt-20">
         <h3>Whats in it for you?</h3>
     </div>
     <div className="lg:-mt-32">
     <section className="bg-black min-h-screen flex flex-wrap lg:flex-nowrap justify-center items-center gap-x-16 text-white flex-grow">
-      <div className="w-[260px] h-[340px] lg:w-[300px] lg:h-[380px] bg-transparent cursor-pointer group perspective lg:py-0 py-8">
+      <div className="w-[200px] h-[320px] lg:w-[220px] lg:h-[300px]  bg-transparent cursor-pointer group perspective lg:py-0 py-8">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 w-full h-full">
             <img src={img} className="w-full h-full"/>
           </div>
-          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-600 overflow-hidden">
-            <div className="text-center flex flex-col items-center justify-center h-full text-white px-2 pb-24">
+          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
+            <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                itaque assumenda saepe animi maxime libero non quasi, odit natus
-                veritatis enim culpa nam inventore doloribus quidem temporibus
-                amet velit accusamus.
+
+              Join HyperForge, the premier blockchain event for students, and discover how blockchain technology is changing the world. Whether you're a computer science or business major, our event offers valuable insights into this exciting industry.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-[260px] h-[340px] lg:w-[300px] lg:h-[380px] bg-transparent cursor-pointer group perspective lg:py-0 py-8">
+      <div className="w-[200px] h-[320px] lg:w-[220px] lg:h-[300px]  bg-transparent cursor-pointer group perspective lg:py-0 py-8">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 w-full h-full">
             <img src={img} className="w-full h-full" />
           </div>
-          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-600 overflow-hidden">
-            <div className="text-center flex flex-col items-center justify-center h-full text-white px-2 pb-24">
+          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
+            <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                itaque assumenda saepe animi maxime libero non quasi, odit natus
-                veritatis enim culpa nam inventore doloribus quidem temporibus
-                amet velit accusamus.
+              At HyperForge, you'll hear from experts in the field and learn about cutting-edge research and applications. Network with like-minded individuals and gain a competitive edge in the tech industry.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-[260px] h-[340px] lg:w-[300px] lg:h-[380px] bg-transparent cursor-pointer group perspective lg:py-0 py-8">
+      <div className="w-[200px] h-[320px] lg:w-[220px] lg:h-[300px] bg-transparent cursor-pointer group perspective lg:py-0 py-8">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 w-full h-full">
             <img src={img} className="w-full h-full" />
           </div>
-          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-600 overflow-hidden">
-            <div className="text-center flex flex-col items-center justify-center h-full text-white px-2 pb-24">
+          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
+            <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                itaque assumenda saepe animi maxime libero non quasi, odit natus
-                veritatis enim culpa nam inventore doloribus quidem temporibus
-                amet velit accusamus.
+              Don't miss out on this opportunity to stay ahead of the curve and unlock the limitless potential of blockchain. Register now for HyperForge and take the first step towards a successful career in this exciting field.
               </p>
             </div>
           </div>

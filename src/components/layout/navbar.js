@@ -37,7 +37,7 @@ const Navbar = () => {
             <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleOurTeamClick}>Our Team</li>
           </ul>
           <button className='bg-[#FFFFFF] hover:bg-[#00CCB7] roundedbg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5 text-sm'>
-          <PopupButton id="q6rWVcPk" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
+          <PopupButton id="QqN35NI5" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
           </button>
         </div>
         <div className='lg:hidden flex'>
