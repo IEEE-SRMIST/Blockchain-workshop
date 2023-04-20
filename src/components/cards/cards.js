@@ -15,7 +15,7 @@ const Cards = () => {
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
             <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
-              <p>
+              <p className="text-sm lg:text-base">
 
               Join HyperForge, the premier blockchain event for students, and discover how blockchain technology is changing the world. Whether you're a computer science or business major, our event offers valuable insights into this exciting industry.
               </p>
@@ -30,7 +30,7 @@ const Cards = () => {
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
             <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
-              <p>
+              <p className="text-sm lg:text-base">
               At HyperForge, you'll hear from experts in the field and learn about cutting-edge research and applications. Network with like-minded individuals and gain a competitive edge in the tech industry.
               </p>
             </div>
@@ -44,7 +44,7 @@ const Cards = () => {
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-black overflow-hidden">
             <div className="text-center flex flex-col items-center justify-center h-full text-white border-2 px-2 pb-2">
-              <p>
+              <p className="text-sm lg:text-base">
               Don't miss out on this opportunity to stay ahead of the curve and unlock the limitless potential of blockchain. Register now for HyperForge and take the first step towards a successful career in this exciting field.
               </p>
             </div>

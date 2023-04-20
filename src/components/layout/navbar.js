@@ -10,18 +10,22 @@ const Navbar = () => {
   const handleOurTeamClick = () => {
     const teamSection = document.getElementById('teams');
     teamSection.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
   };
   const handleourspeakerClick = () => {
     const teamSection = document.getElementById('speaker');
     teamSection.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
   };
   const handleaboutusClick = () => {
     const teamSection = document.getElementById('AboutUs');
     teamSection.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
   };
   const handleabouteventClick = () => {
     const teamSection = document.getElementById('AboutEvent');
     teamSection.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
   };
   return (
     <div className='fixed w-screen' style={{zIndex: 2}}>
