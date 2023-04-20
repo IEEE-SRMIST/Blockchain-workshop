@@ -19,7 +19,7 @@ function App() {
           </p>
           <div>
             <p className="text-lexand mb-8 lg:mb-12 xl:mb-16 text-justify px-6 md:px-10 lg:px-0">
-            Join us for an engaging exploration of blockchain and discover the future of transactions, data storage, and online interactions on 25/04/2023 in TechPark 501. Don't miss out on this exciting opportunity to unlock the limitless potential of blockchain!
+            Join us for an engaging exploration of blockchain and discover the future of transactions, data storage, and online interactions on 25/04/2023 in TechPark 501 from 9am to 3pm IST. Don't miss out on this exciting opportunity to unlock the limitless potential of blockchain!
             </p>
           </div>
         </div>
