@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PopupButton } from '@typeform/embed-react'
+// import { PopupButton } from '@typeform/embed-react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +37,9 @@ const Navbar = () => {
             <li className="hover:text-[#00CCB7] cursor-pointer" onClick={handleOurTeamClick}>Our Team</li>
           </ul>
           <button className='bg-[#FFFFFF] hover:bg-[#00CCB7] roundedbg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5 text-sm'>
-          <PopupButton id="QqN35NI5" style={{ fontSize: 20 }} className="my-button">Register now</PopupButton>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSesglhIb8WZXa_Cjl1HeMVuqWKXlC1Fhdl68UoNS1b7KIYmwQ/viewform?usp=sf_link'>
+          <div style={{ fontSize: 20 }} className="my-button">Register now</div>
+          </a>
           </button>
         </div>
         <div className='lg:hidden flex'>
