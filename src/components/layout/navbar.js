@@ -68,9 +68,9 @@ const Navbar = () => {
             <li onClick={handleabouteventClick}>About the event</li>
             <li onClick={handleourspeakerClick}>Panelist</li>
             <li onClick={handleOurTeamClick}>Our Team</li>
-            <button className='bg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSesglhIb8WZXa_Cjl1HeMVuqWKXlC1Fhdl68UoNS1b7KIYmwQ/viewform?usp=sf_link" className='bg-[#FFFFFF] text-[#1E1E1E] border rounded flex items-center px-2 py-0.5'>
               Register now
-            </button>
+            </a>
           </ul>
         </div>
       )}
