@@ -2,7 +2,7 @@ import React from 'react'
 import speaker from '../../assets/images/speaker.jpeg'
 const Speaker = () => {
   return (
-    <div  id="speaker" className='pt-32 pb-40 lg:h-screen flex flex-col justify-end md:space-x-10 text-lexand md:flex-row'>
+    <div  id="speaker" className='pt-20 pb-20 lg:pb-auto lg:h-screen flex flex-col justify-end md:space-x-10 text-lexand md:flex-row'>
         {/* left */}
         <div className='text-[#FFFFFF] lg:text-end items-center md:text-center'>
             <h1 className='text-4xl pb-16 text-center lg:text-end'>Our Speaker</h1>

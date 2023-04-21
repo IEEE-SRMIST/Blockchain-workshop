@@ -15,63 +15,63 @@ const team = [
     {
         name : 'RohanKumar',
         image : rohan,
-        linkedin : '',
+        linkedin: 'https://www.linkedin.com/in/kumarrohan9724/',
     },
     {
         name : 'Vaishali V',
         image : vaishnavi,
-        linkedin : '',
+        instagram: "https://instagram.com/vaishalivinayaga?igshid=ZDdkNTZiNTM=",
     },
     {
         name : 'NishantRao',
         image : nish,
-        linkedin : '',
+        linkedin: 'https://www.linkedin.com/in/nishanth-rao-dugyala-44a5201b2/',
     },
     {
         name : 'Kaushik Kumaran',
         image : kaushik,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/kaushikkums/",
     },
     {
         name : 'Snehil',
         image : snehil,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/snehilcodes/",
     },
     {
         name : 'Harinarayanan',
         image : hari,
-        linkedin : '',
+        linkedin: 'https://www.linkedin.com/in/harinarayanan-r/',
     },
     {
         name : 'Avinash',
         image : avinash,
-        linkedin : '',
+        linkedin: 'https://www.linkedin.com/in/avinashh-g/',
     },
     
     {
         name : 'Sriram',
         image : sriram,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/srirammandalika",
     },
     {
         name : 'Sivakumar',
         image : siva,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/srirammandalika",
     },
     {
         name : 'Kanishk',
         image : kanishk,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/kanishk-k-u/",
     },
     {
         name : 'kunal',
         image : kunal,
-        linkedin : '',
+        linkedin: 'https://linkedin.com/in/kunalkeshan',
     },
     {
         name : 'vivek',
         image : vivek,
-        linkedin : '',
+        linkedin: "https://www.linkedin.com/in/gopalakrishnan-v-s-a23510206/",
     },
 ]
 

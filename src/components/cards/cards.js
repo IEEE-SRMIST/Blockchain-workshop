@@ -3,7 +3,7 @@ import img from "../../assets/images/image 4.svg";
 const Cards = () => {
   return (
   <div  id="AboutEvent" className="bg-black">
-    <div className="text-Roboto text-2xl mb-8 mt-40 lg:text-4xl mb-4 text-white text-center pt-80 md:pt-20">
+    <div className="text-Roboto text-2xl mt-32 lg:mt-auto lg:text-4xl mb-8 text-white text-center pt-80 md:pt-20">
         <h3>Whats in it for you?</h3>
     </div>
     <div className="lg:-mt-32">
