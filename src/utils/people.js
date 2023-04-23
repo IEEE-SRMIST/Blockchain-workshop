@@ -56,7 +56,7 @@ const team = [
     {
         name : 'Sivakumar',
         image : siva,
-        linkedin: "https://www.linkedin.com/in/srirammandalika",
+        linkedin: "https://www.linkedin.com/in/kota-satya-surya-siva-kumar-799a33200/",
     },
     {
         name : 'Kanishk',
